@@ -1,0 +1,24 @@
+{
+    "name": "14--9-2022",
+    "description": "14--9-2022",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "tabs", "scripting", "storage"],
+    "action": {
+    
+      "default_title": "Click Me"
+    },
+  
+   
+  
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "js": ["content.js"],
+        "css": ["my-styles.css"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>                                                                        
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                 
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+
+    <img src="image/cancel.png" alt="" id="cross">
+    <nav class="navbar">
+        <img src="./image/logo.png" class="logo">
+        <p class="heading">Screen Recording </p>
+    </nav>
+    <div class="main-container" id="main-container">
+        <div class="conatiner">
+            <div class="conatiner_box_1" id="screen1">
+                <img src="./image/Camera.png" class="camera_image">
+                <span class="container_heading">Capture with Camera</span>
+            </div>
+            <div class="conatiner_box_2" id="screen2">
+                <img src="./image/Vector.png" class="camera_image">
+                <span class="container_heading_1">Capture with Screen</span>
+            </div>
+            <div class="conatiner_box_3" id="screen3">
+                <img src="./image/screen.png" class="camera_screen">
+                <p class="container_heading_2">Capture with Camera + Screen</p>
+            </div>
+        </div>
+        <div>
+            <p class="footer_heading" id="footer"> Select any of the following options above to start recording.</p>
+        </div>
+        <div class="display_none" id="block1">
+            <div class=" mic_btn">
+                <img src="./image/bi_mic.png" class="mic_image">
+                <span class="mic_heading">Mic Recording</span>
+                <input type="checkbox" id="switch" class="switch_toggle" /><label for="switch">Toggle</label>
+            </div>
+            <div class="btn_strt">
+                <button class="btn_record" id="btn_record1"> Start Recording </button>
+            </div>
+        </div>
+
+
+        <div class="display_none" id="block2">
+            <div class=" mic_btn">
+                <img src="./image/bi_mic.png" class="mic_image">
+                <span class="mic_heading">Mic Recording</span>
+                <input type="checkbox" id="switch" class="switch_toggle" /><label for="switch">Toggle</label>
+            </div>
+            <div class="btn_strt">
+                <button class="btn_record" id="btn_record2"> Start Recording </button>
+            </div>
+        </div>
+
+
+
+        <div class="display_none" id="block3">
+            <div class=" mic_btn">
+                <img src="./image/bi_mic.png" class="mic_image">
+                <span class="mic_heading">Mic Recording</span>
+                <input type="checkbox" id="switch" class="switch_toggle" /><label for="switch">Toggle</label>
+            </div>
+            <div class="btn_strt">
+                <button class="btn_record" id="btn_record3"> Start Recording </button>
+            </div>
+        </div>
+
+    </div>
+
+    <video src="" id="data" loop controls></video>
+    <video src="" id="data2" controls autoplay></video>
+    <video src="" id="data3" controls autoplay></video>
+
+
+
+    <a class="btn_record1" id="download" href="" download="">Dowload</a>
+
+    <button class="btn_record2" id="download1">Start Recording</button>
+
+    <button class="btn_record3" id="download2" href="" download="">Dowload</button>
+
+    <script src="//path/to/video.min.js"></script>
+    <script src="//path/to/videojs-newoverlay.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
